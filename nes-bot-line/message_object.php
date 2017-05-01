@@ -39,17 +39,17 @@ class message_object{
      * @param $previewImageUrl
      * $originalContentUrl type String :
      *                      Image URL (Max: 1000 characters)
-                            HTTPS
-                            JPEG
-                            Max: 1024 x 1024
-                            Max: 1 MB
+     *                      HTTPS
+     *                      JPEG
+     *                      Max: 1024 x 1024
+     *                      Max: 1 MB
      *
      * $previewImageUrl type String :
      *                      Preview image URL (Max: 1000 characters)
-                            HTTPS
-                            JPEG
-                            Max: 240 x 240
-                            Max: 1 MB
+     *                      HTTPS
+     *                      JPEG
+     *                      Max: 240 x 240
+     *                      Max: 1 MB
      *
      * @return array
     **/
@@ -110,8 +110,8 @@ class message_object{
      *
      *
      *The image used for the imagemap must meet the following specifications:
-        Image format: JPEG or PNG
-        File size: Up to 1 MB
+     *              Image format: JPEG or PNG
+     *              File size: Up to 1 MB
      *
      * @return array
      */
